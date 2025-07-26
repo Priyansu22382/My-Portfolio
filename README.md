@@ -1,12 +1,47 @@
-# React + Vite
+# 👨‍💻 Priyanshu's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and performance-optimized developer portfolio built using **Vite + React**.  
+Showcasing my featured projects, tech stack, experience, and contact details with a clean and elegant design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [Visit Live Site](https://priyanshu-portfolio-zd4c.onrender.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+- ⚡ **Built with Vite** for blazing-fast development and build times
+- 🎨 Responsive & aesthetic UI with **Tailwind CSS**
+- 🧠 Project filtering by tags
+- 💼 Highlighted featured projects with live and code links
+- 📱 Mobile-first & SEO-optimized
+- 🔗 Smooth navigation & interactive hover effects
+- 🌙 Dark & light theme ready (optional toggle if implemented)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS
+- **Hosting:** Netlify / Render
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── public/             # Static assets
+├── src/
+│   ├── assets/         # Images and icons
+│   ├── components/     # Reusable components
+│   ├── data/           # Project data (JSON or JS objects)
+│   ├── pages/          # Main sections (About, Projects, Contact)
+│   ├── App.jsx         # Main App component
+│   └── main.jsx        # React root render
+├── tailwind.config.js  # Tailwind CSS config
+├── index.html          # Base HTML
+└── vite.config.js      # Vite configuration
