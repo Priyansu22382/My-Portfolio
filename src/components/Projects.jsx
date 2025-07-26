@@ -11,31 +11,22 @@ const projects = [
         gitUrl: "https://github.com/Priyansu22382/AiMediCare"
     },
     {
-        id : 2,
-        title : "My Old Portfolio Webite",
-        description : "A beautiful Portfolio Web App using HTML, CSS, Javascript.",
-        image : '/Portfolio.png',
-        tags : ["HTML", "CSS", "Javascript"],
-        demoUrl : "https://portfolio-website-priyanshus-projects-d73f6a02.vercel.app/",
-        gitUrl : "https://github.com/Priyansu22382/Portfolio-Website"
-    },
-    {
-        id: 3,
-        title: "Study Sync Website",
-        description: "A beautiful Study Sync Page App using HTML, CSS, Javascript.",
-        image: "/StudySync.png",
-        tags: ["HTML", "CSS", "Javascript"],
-        demoUrl: "https://priyansu22382.github.io/StudyPointProject/",
-        gitUrl: "https://github.com/Priyansu22382/StudyPointProject"
-    },
-    {
-        id: 4,
+        id: 2,
         title: "Zoo Management System",
         description: "Zoo-Topia is a terminal-based Zoo Management System built with core Java and OOP concepts. It allows admins and visitors to manage animals, attractions, memberships, discounts, stats, and feedback — all interactively, without using a database.",
         image: "/zooManagement.png",
         tags: ["Java", "OOPS"],
         demoUrl: "https://github.com/Priyansu22382/Zoo-Topia",
         gitUrl: "https://github.com/Priyansu22382/Zoo-Topia"
+    },
+    {
+        id : 3,
+        title : "My Old Portfolio Webite",
+        description : "A modern and responsive portfolio web app built using HTML, CSS, and JavaScript. It highlights personal projects, skills, and contact information with a clean design and smooth user interactions.",
+        image : '/Portfolio.png',
+        tags : ["HTML", "CSS", "Javascript"],
+        demoUrl : "https://portfolio-website-priyanshus-projects-d73f6a02.vercel.app/",
+        gitUrl : "https://github.com/Priyansu22382/Portfolio-Website"
     }
 ]
 const Projects = () => {
