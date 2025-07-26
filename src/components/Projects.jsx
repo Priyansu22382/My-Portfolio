@@ -31,7 +31,7 @@ const projects = [
     {
         id: 4,
         title: "Zoo Management System",
-        description: "The Zoo Management System is designed to streamline operations in a zoo...",
+        description: "Zoo-Topia is a terminal-based Zoo Management System built using core Java and Object-Oriented Programming (OOP) principles. It provides an interactive and seamless experience for both administrators and visitors, enabling efficient management of zoo operations such as animal tracking, attraction management, memberships, discounts, statistics, and visitor feedback — all without a database.",
         image: "/zooManagement.png",
         tags: ["Java", "OOPS"],
         demoUrl: "https://github.com/Priyansu22382/Zoo-Topia",
