@@ -8,7 +8,7 @@ const projects = [
         image: "/AiMedi.png", // Update the image path if needed
         tags: ["MERN", "Twilio", "HealthTech"],
         demoUrl: "https://aimedicare.netlify.app/",
-        gitUrl: "https://github.com/Priyansu22382/AiMediCare"
+        gitUrl: "https://github.com/Priyansu22382/AiMediCarePlatform"
     },
     {
         id: 2,
