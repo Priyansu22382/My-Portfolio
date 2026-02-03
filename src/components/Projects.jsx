@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "Ad-Promotion Platform",
         description: "A full-stack Ad Promotion Platform that allows businesses to create, manage, and promote advertisements efficiently. Features include ad listings, campaign management, responsive UI, and scalable backend architecture.",
-        image: "/adPromotion.png", // update image if needed
+        image: "/AdPromotion.png", // update image if needed
         tags: ["MERN", "Marketing", "Full Stack"],
         demoUrl: "https://adpromotionplatform.netlify.app/",
         gitUrl: "https://github.com/Priyansu22382/AdPromotionPlatform"
