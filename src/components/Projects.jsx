@@ -5,30 +5,31 @@ const projects = [
         id: 1,
         title: "AiMedicare",
         description: "A smart Medication Adherence Tracker built using the MERN Stack and Twilio. Role-based features for Patients, Caretakers, and Doctors including SMS reminders, adherence logs, and dashboards.",
-        image: "/AiMedi.png", // Update the image path if needed
+        image: "/AiMedi.png",
         tags: ["MERN", "Twilio", "HealthTech"],
         demoUrl: "https://aimedicare.netlify.app/",
         gitUrl: "https://github.com/Priyansu22382/AiMediCarePlatform"
     },
     {
         id: 2,
+        title: "Ad-Promotion Platform",
+        description: "A full-stack Ad Promotion Platform that allows businesses to create, manage, and promote advertisements efficiently. Features include ad listings, campaign management, responsive UI, and scalable backend architecture.",
+        image: "/adPromotion.png", // update image if needed
+        tags: ["MERN", "Marketing", "Full Stack"],
+        demoUrl: "https://adpromotionplatform.netlify.app/",
+        gitUrl: "https://github.com/Priyansu22382/AdPromotionPlatform"
+    },
+    {
+        id: 3,
         title: "Zoo Management System",
         description: "Zoo-Topia is a terminal-based Zoo Management System built with core Java and OOP concepts. It allows admins and visitors to manage animals, attractions, memberships, discounts, stats, and feedback — all interactively, without using a database.",
         image: "/zooManagement.png",
         tags: ["Java", "OOPS"],
         demoUrl: "https://github.com/Priyansu22382/Zoo-Topia",
         gitUrl: "https://github.com/Priyansu22382/Zoo-Topia"
-    },
-    {
-        id : 3,
-        title : "My Old Portfolio Webite",
-        description : "A modern and responsive portfolio web app built using HTML, CSS, and JavaScript. It highlights personal projects, skills, and contact information with a clean design and smooth user interactions.",
-        image : '/Portfolio.png',
-        tags : ["HTML", "CSS", "Javascript"],
-        demoUrl : "https://portfolio-website-priyanshus-projects-d73f6a02.vercel.app/",
-        gitUrl : "https://github.com/Priyansu22382/Portfolio-Website"
     }
 ]
+
 const Projects = () => {
   return (
     <section id="projects" className='py-24 px-4 relative '>
