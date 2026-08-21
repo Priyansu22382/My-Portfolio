@@ -32,7 +32,7 @@ const experiences = [
         icon: <Server className="h-5 w-5 text-primary" />
       },
       {
-        title: "FaapPerfume Boutique",
+        title: "FaaPerfume Boutique",
         desc: "Built a production fragrance e-commerce storefront with catalog collections, combo offers, cart/checkout, customer and admin roles, and multi-currency UAE delivery.",
         icon: <Sparkles className="h-5 w-5 text-primary" />
       }

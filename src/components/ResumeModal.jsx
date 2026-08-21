@@ -119,7 +119,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
                     <li>Designed and implemented backend APIs for the <strong className="text-foreground">PayVang</strong> platform, improving application scalability & performance.</li>
                     <li>Built and enhanced the <strong className="text-foreground">Merchant Portal</strong> (authentication, dashboard analytics, payment management, responsive international UI).</li>
                     <li>Contributed to the <strong className="text-foreground">CourseraEducation</strong> platform with scalable frontend components, backend services, and database integrations.</li>
-                    <li>Built the <strong className="text-foreground">FaapPerfume</strong> fragrance boutique — catalog collections, combo offers, cart/checkout, customer & admin roles, and multi-currency UAE delivery.</li>
+                    <li>Built the <strong className="text-foreground">FaaPerfume</strong> fragrance boutique — catalog collections, combo offers, cart/checkout, customer & admin roles, and multi-currency UAE delivery.</li>
                   </ul>
                 </div>
               </div>

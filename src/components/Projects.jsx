@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "FaapPerfume",
+    title: "FaaPerfume",
     tagline: "Modern Fragrance E-commerce Boutique",
     description: "Production fragrance boutique built at V.Vang Solutions for designer, niche, and Arabian scents — with collections, combo offers, cart/checkout, and UAE-wide delivery.",
     highlights: [
