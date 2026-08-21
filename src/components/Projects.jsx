@@ -1,9 +1,37 @@
 import React from 'react';
-import { ArrowRight, ExternalLink, Github, FolderGit2, CheckCircle2, Sparkles, Megaphone, Activity, Terminal, Code2, ShieldCheck, PhoneCall, Cpu, Server } from 'lucide-react';
+import { ArrowRight, ExternalLink, Github, FolderGit2, CheckCircle2, Sparkles, Megaphone, Activity, Terminal, Code2, ShieldCheck, PhoneCall, Cpu, Server, GraduationCap, ShoppingBag } from 'lucide-react';
 
 const projects = [
   {
     id: 1,
+    title: "CourseraEducation",
+    tagline: "Enterprise AI Training & Admin LMS",
+    description: "Production education platform built at V.Vang Solutions for custom AI training programs — with admin management, student portals, cohorts, and learning analytics.",
+    highlights: [
+      "Role-based Admin Panel & Student Portal with JWT authentication",
+      "Cohorts, assignments, quizzes, live sessions, and progress analytics",
+      "Custom AI curriculum tracks including RAG, Prompt Engineering, and Agentic AI"
+    ],
+    tags: ["React.js", "Vite", "Node.js", "REST APIs", "JWT Auth", "Role-Based Access"],
+    demoUrl: "https://courseraeducation.com/",
+    bannerType: "coursera"
+  },
+  {
+    id: 2,
+    title: "FaapPerfume",
+    tagline: "Modern Fragrance E-commerce Boutique",
+    description: "Production fragrance boutique built at V.Vang Solutions for designer, niche, and Arabian scents — with collections, combo offers, cart/checkout, and UAE-wide delivery.",
+    highlights: [
+      "Full catalog with Men, Women, Exclusive, Combos, and brand collections",
+      "Customer & Admin roles, wishlist, discount codes, and combo checkout",
+      "Multi-currency storefront (AED, USD, EUR) with express UAE delivery"
+    ],
+    tags: ["React.js", "Vite", "E-commerce", "REST APIs", "JWT Auth", "Responsive Design"],
+    demoUrl: "https://faaperfume.com/",
+    bannerType: "faaperfume"
+  },
+  {
+    id: 3,
     title: "AdPromotion Platform",
     tagline: "Full-Stack Vehicle Ad Campaign Marketplace",
     description: "Full-stack MERN platform connecting companies with cab drivers to manage vehicle advertisement campaigns through an admin-controlled system.",
@@ -18,7 +46,7 @@ const projects = [
     bannerType: "adpromotion"
   },
   {
-    id: 2,
+    id: 4,
     title: "AI-Medicare Platform",
     tagline: "AI & Twilio Voice/SMS Medication Adherence System",
     description: "Full-stack healthcare platform built to improve medication adherence using AI-driven voice calls, SMS reminder workflows, and automated cron schedules.",
@@ -33,7 +61,7 @@ const projects = [
     bannerType: "aimedicare"
   },
   {
-    id: 3,
+    id: 5,
     title: "Developer Portfolio Website",
     tagline: "Modern Dynamic Interactive Developer Hub",
     description: "Responsive personal portfolio showcasing projects, technical skills, and professional engineering experience at V.Vang Solutions.",
@@ -48,7 +76,7 @@ const projects = [
     bannerType: "portfolio"
   },
   {
-    id: 4,
+    id: 6,
     title: "Zoo-Topia Management System",
     tagline: "Interactive Core Java OOP System",
     description: "Terminal-based Zoo Management System engineered with Core Java and Object-Oriented Design patterns.",
@@ -205,6 +233,87 @@ const ProjectBanner = ({ type, tagline }) => {
               <p className="text-amber-300 font-semibold">[✓] Zoo Management Engine Ready</p>
               <p className="text-gray-300">&gt; Admin Dashboard &amp; Attractions Loaded</p>
               <p className="text-emerald-400">&gt; Membership &amp; Feedback Stats: OK</p>
+            </div>
+          </div>
+        </div>
+      );
+
+    case 'coursera':
+      return (
+        <div className="w-full h-56 relative bg-gradient-to-br from-[#3a1016] via-[#7A1F2B] to-slate-950 overflow-hidden flex items-center justify-center p-6 text-left">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-rose-500/20 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-amber-400/10 rounded-full blur-3xl" />
+          <div className="absolute inset-0 opacity-10 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:16px_16px]" />
+
+          <div className="relative z-10 w-full max-w-sm bg-black/40 backdrop-blur-md p-4 rounded-xl border border-white/10 shadow-2xl space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="p-2 rounded-lg bg-rose-500/20 text-rose-200 border border-rose-400/30">
+                  <GraduationCap size={20} />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-white uppercase tracking-wider">AI Training LMS</h4>
+                  <p className="text-[10px] text-rose-200">Admin Panel & Student Portal</p>
+                </div>
+              </div>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                Production
+              </span>
+            </div>
+
+            <div className="grid grid-cols-3 gap-2 text-center pt-1">
+              <div className="p-1.5 rounded-lg bg-white/5 border border-white/10">
+                <span className="text-[10px] text-gray-400 block">Roles</span>
+                <span className="text-xs font-bold text-rose-200">Admin/Student</span>
+              </div>
+              <div className="p-1.5 rounded-lg bg-white/5 border border-white/10">
+                <span className="text-[10px] text-gray-400 block">Programs</span>
+                <span className="text-xs font-bold text-amber-200">Cohorts</span>
+              </div>
+              <div className="p-1.5 rounded-lg bg-white/5 border border-white/10">
+                <span className="text-[10px] text-gray-400 block">Insights</span>
+                <span className="text-xs font-bold text-emerald-300">Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+
+    case 'faaperfume':
+      return (
+        <div className="w-full h-56 relative bg-gradient-to-br from-[#1a1410] via-[#3d2a18] to-slate-950 overflow-hidden flex items-center justify-center p-6 text-left">
+          <div className="absolute top-0 left-8 w-64 h-64 bg-amber-400/20 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-8 w-64 h-64 bg-rose-400/10 rounded-full blur-3xl" />
+
+          <div className="relative z-10 w-full max-w-sm bg-black/40 backdrop-blur-md p-4 rounded-xl border border-amber-500/20 shadow-2xl space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="p-2 rounded-lg bg-amber-500/20 text-amber-200 border border-amber-400/30">
+                  <ShoppingBag size={20} />
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-white uppercase tracking-wider">Fragrance Boutique</h4>
+                  <p className="text-[10px] text-amber-200">Designer · Niche · Arabian</p>
+                </div>
+              </div>
+              <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-amber-500/20 text-amber-200 border border-amber-400/30">
+                Live Store
+              </span>
+            </div>
+
+            <div className="space-y-1.5 pt-1">
+              <div className="flex items-center justify-between p-1.5 rounded-lg bg-white/5 border border-white/10 text-[11px]">
+                <span className="flex items-center gap-1.5 text-gray-300">
+                  <Sparkles size={12} className="text-amber-300" /> Combos, wishlist & checkout
+                </span>
+                <span className="text-[9px] font-mono text-amber-300 bg-amber-400/10 px-1.5 py-0.5 rounded">AED/USD</span>
+              </div>
+              <div className="flex items-center justify-between p-1.5 rounded-lg bg-white/5 border border-white/10 text-[11px]">
+                <span className="flex items-center gap-1.5 text-gray-300">
+                  <Server size={12} className="text-rose-300" /> Customer & Admin store roles
+                </span>
+                <span className="text-[9px] font-mono text-emerald-300 bg-emerald-400/10 px-1.5 py-0.5 rounded">UAE</span>
+              </div>
             </div>
           </div>
         </div>
